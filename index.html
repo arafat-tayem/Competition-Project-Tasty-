@@ -1,0 +1,1414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tasty</title>
+    <link rel="icon" type="image/x-icon" href="img/main_logo.png" />
+    <!-- css link start -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/lightbox.min.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/percent-preloader.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/venobox.min.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- css link end -->
+  </head>
+  <body>
+    <!--------------------------------------- nav part start ----------------------------------->
+    <section id="nav" class="scrool_nav d-none d-lg-block">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-2">
+            <div class="reserv_btn">
+              <a href="#">Reservation</a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="menu_item text-start">
+              <a href="#home">home</a>
+              <a href="#">store</a>
+              <a href="#">service</a>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="logo text-center">
+              <a href="#"><img src="img/main_logo.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="menu_item text-end">
+              <a href="#">contact</a>
+              <a href="#">download</a>
+              <a href="#">profile</a>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="address_btn text-end">
+              <a
+                class="btn btn-primary"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"
+                ><i class="fa-solid fa-bars"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 2nd nav start -->
+    <section id="nav_secnd">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary d-lg-none">
+        <div class="container">
+          <div class="logo_img">
+            <img src="img/main_logo.png" alt="" />
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Store</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Download</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Profile</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- 2nd nav end -->
+    <!-- extra -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="offcanvasRight"
+      aria-labelledby="offcanvasRightLabel"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasRightLabel">Our Address</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <p>8/A, Jighatola, Dhanmondi</p>
+      </div>
+    </div>
+    <!-- extra -->
+    <!--------------------------------------- nav part end ----------------------------------->
+
+    <!---------------------------------- banner part start ------------------------------------->
+    <section class="main swiper mySwiper">
+      <div class="wrapper swiper-wrapper">
+        <div class="slide swiper-slide">
+          <img
+            src="img/banner_img/banner-slider-img-1.jpg"
+            alt=""
+            class="banner1 w-100"
+          />
+          <div class="image-data">
+            <span class="text">Enjoy the finest coffee drinks.</span>
+            <h2>
+              Enjoy Our Exclusive <br />
+              Coffee and Cocktails
+            </h2>
+            <a href="#" class="button">About Us</a>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img
+            src="img/banner_img/banner-slider-img-2.jpg"
+            alt=""
+            class="banner2 w-100"
+          />
+          <div class="image-data">
+            <span class="text">We really like what we do.</span>
+            <h2>
+              Coffee Beans with a <br />
+              Perfect Aroma
+            </h2>
+            <a href="#" class="button">About Us</a>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <img
+            src="img/banner_img/banner-slider-img-3.jpg"
+            alt=""
+            class="banner3 w-100"
+          />
+          <div class="image-data">
+            <span class="text">Making Our coffee with lover.</span>
+            <h2>
+              Alluring and Fragrant <br />
+              Coffee Aroma
+            </h2>
+            <a href="#" class="button">About Us</a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next nav-btn"></div>
+      <div class="swiper-button-prev nav-btn"></div>
+      <div class="swiper-pagination"></div>
+    </section>
+    <!---------------------------------- banner part end ------------------------------------->
+
+    <!--------------------------------- preloader part start --------------------------------->
+    <section id="pre-loader">
+      <div class="preloader">
+        <div class="inner">
+          <span class="percentage"><span id="percentage">15</span>%</span>
+        </div>
+        <div class="loader-progress" id="loader-progress"></div>
+      </div>
+    </section>
+    <!--------------------------------- preloader part end --------------------------------->
+
+    <!----------------------------------- back to top button -------------------------------->
+    <section id="back-to-top">
+      <div class="back_top">
+        <i class="fa-solid fa-angle-up"></i>
+      </div>
+    </section>
+    <!----------------------------------- back to top button -------------------------------->
+
+    <!---------------------------------- about us part start ------------------------------>
+    <section id="about_us">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <div class="about_head text-center">
+              <h3>about <span class="span_color">us</span></h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              data-aos-once="true"
+              data-aos-easing="ease-in-out"
+            >
+              <figure class="snip0019">
+                <img
+                  src="img/about_us-img/coffee-5589038_1280.jpg"
+                  class="w-100"
+                  alt="#"
+                />
+                <figcaption>
+                  <div>
+                    <h2>Lorem ipsum dolor sit amet consecte.</h2>
+                  </div>
+                  <div>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Accusantium, ex?
+                    </p>
+                  </div>
+                  <a href="#"></a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="about_text text-center">
+              <p>
+                A restaurant's culinary philosophy outlines its approach to food
+                and cooking, reflecting its core values, beliefs, and the unique
+                dining experience it seeks to provide. The culinary philosophy
+                sets the tone for the restaurant's menu, ingredients, cooking
+                techniques, and overall dining atmosphere.
+              </p>
+              <img
+                src="img/about_us-img/singnature.png"
+                class="w-50 pt-4"
+                alt="singnature"
+              />
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              data-aos="fade-left"
+              data-aos-duration="1000"
+              data-aos-once="true"
+              data-aos-easing="ease-in-out"
+            >
+              <figure class="snip0019">
+                <img
+                  src="img/about_us-img/champagne-4736380_1280.jpg"
+                  class="w-100"
+                  alt="#"
+                />
+                <figcaption>
+                  <div>
+                    <h2>Lorem <span>ipsum</span> dolor sit amet consecte.</h2>
+                  </div>
+                  <div>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <a href="#"></a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-between">
+          <div class="col-lg-3">
+            <div class="about_text text-end">
+              <div class="about_text_head">
+                <h4>Culinary Philosophy</h4>
+              </div>
+              <p>
+                Culinary philosophy is the guiding set of principles, beliefs,
+                and values that shape a chef's or a restaurant's approach to
+                food, cooking, and the dining experience. It serves as the
+                foundation upon which culinary decisions are made, from menu
+                creation to ingredient sourcing and cooking techniques. A
+                well-defined culinary philosophy helps establish a unique
+                identity for a chef, a restaurant, or a culinary establishment.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about_video">
+              <figure class="snip0016">
+                <img
+                  src="img/about_us-img/veno_image.jpg"
+                  class="w-100"
+                  alt="veno_box"
+                />
+                <figcaption>
+                  <h2>Our Culinary<span> Philosophy</span></h2>
+                  <i class="fa-regular fa-circle-play"></i>
+                  <a
+                    class="my-video-links"
+                    data-autoplay="true"
+                    data-vbtype="video"
+                    href="https://www.youtube.com/watch?v=fT9ueBsGDkU"
+                  ></a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="about_text ps-3">
+              <div class="about_text_head">
+                <h4>The Art of Cooking</h4>
+              </div>
+              <p>
+                Culinary philosophy is the guiding set of principles, beliefs,
+                and values that shape a chef's or a restaurant's approach to
+                food, cooking, and the dining experience. It serves as the
+                foundation upon which culinary decisions are made, from menu
+                creation to ingredient sourcing and cooking techniques. A
+                well-defined culinary philosophy helps establish a unique
+                identity for a chef, a restaurant, or a culinary establishment.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---------------------------------- about us part start ------------------------------>
+
+    <!-------------------------------------- gallery part start ------------------------------>
+    <section id="gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <div class="gallery_head text-center">
+              <h3>our <span class="span_color">gallery</span></h3>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="gallery_mix_btn text-center">
+              <button class="m-3" type="button" data-filter="all">All</button>
+              &#124;
+              <button class="m-3" type="button" data-filter=".category-a">
+                Interior
+              </button>
+              &#124;
+              <button class="m-3" type="button" data-filter=".category-b">
+                Foods
+              </button>
+              &#124;
+              <button class="m-3" type="button" data-filter=".category-c">
+                Drinks
+              </button>
+              &#124;
+              <button class="m-3" type="button" data-filter=".category-d">
+                Dessert
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center gallery_mixer">
+          <div class="col-lg-3 col-md-3 col-sm-3 mix category-b">
+            <figure class="snip1205 orange">
+              <img
+                src="img/gallery_img/food_item-1.jpg"
+                class="w-100"
+                alt="food_item-1"
+              />
+              <a
+                href="img/gallery_img/food_item-1.jpg"
+                data-lightbox="image-1"
+                data-title="Food-item-1"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </figure>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 mix category-b">
+            <figure class="snip1205 orange">
+              <img
+                src="img/gallery_img/food_item-2.jpg"
+                class="w-100"
+                alt="food_item-2"
+              />
+              <a
+                href="img/gallery_img/food_item-2.jpg"
+                data-lightbox="image-1"
+                data-title="Food-item-2"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </figure>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 mix category-b">
+            <figure class="snip1205 orange">
+              <img
+                src="img/gallery_img/food_item-3.jpg"
+                class="w-100"
+                alt="food_item-3"
+              />
+              <a
+                href="img/gallery_img/food_item-3.jpg"
+                data-lightbox="image-1"
+                data-title="Food-item-3"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </figure>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 mix category-a">
+            <figure class="snip1205 orange">
+              <img
+                src="img/gallery_img/interior_design-1.jpg"
+                class="w-100"
+                alt="interior_design-1"
+              />
+              <a
+                href="img/gallery_img/interior_design-1.jpg"
+                data-lightbox="image-1"
+                data-title="Restaurant_interior-south"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </figure>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 mix category-a">
+            <figure class="snip1205 orange">
+              <img
+                src="img/gallery_img/interior_design-2.jpg"
+                class="w-100"
+                alt="interior_design-2"
+              />
+              <a
+                href="img/gallery_img/interior_design-2.jpg"
+                data-lightbox="image-1"
+                data-title="Restaurant_interior-west"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </figure>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 mix category-a">
+            <figure class="snip1205 orange">
+              <img
+                src="img/gallery_img/interior_design-3.jpg"
+                class="w-100"
+                alt="interior_design-3"
+              />
+              <a
+                href="img/gallery_img/interior_design-3.jpg"
+                data-lightbox="image-1"
+                data-title="Restaurant_interior-north"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </figure>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 mix category-c">
+            <figure class="snip1205 orange">
+              <img
+                src="img/gallery_img/drinks_item-1.jpg"
+                class="w-100"
+                alt="drinks_item-1"
+              />
+              <a
+                href="img/gallery_img/drinks_item-1.jpg"
+                data-lightbox="image-1"
+                data-title="Lemonade & Orange Juice"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </figure>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 mix category-c">
+            <figure class="snip1205 orange">
+              <img
+                src="img/gallery_img/drinks_item-2.jpg"
+                class="w-100"
+                alt="drinks_item-2"
+              />
+              <a
+                href="img/gallery_img/drinks_item-2.jpg"
+                data-lightbox="image-1"
+                data-title="Orange Juice"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </figure>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 mix category-c">
+            <figure class="snip1205 orange">
+              <img
+                src="img/gallery_img/drinks_item-3.jpg"
+                class="w-100"
+                alt="drinks_item-3"
+              />
+              <a
+                href="img/gallery_img/drinks_item-3.jpg"
+                data-lightbox="image-1"
+                data-title="Apple Tea"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </figure>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 mix category-d">
+            <figure class="snip1205 orange">
+              <img
+                src="img/gallery_img/dessert_item-1.jpg"
+                class="w-100"
+                alt="dessert_item-1"
+              />
+              <a
+                href="img/gallery_img/dessert_item-1.jpg"
+                data-lightbox="image-1"
+                data-title="Vanilla Cake"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </figure>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 mix category-d">
+            <figure class="snip1205 orange">
+              <img
+                src="img/gallery_img/dessert_item-2.jpg"
+                class="w-100"
+                alt="dessert_item-2"
+              />
+              <a
+                href="img/gallery_img/dessert_item-2.jpg"
+                data-lightbox="image-1"
+                data-title="Multi Chocolate Layer Cake"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </figure>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 mix category-d">
+            <figure class="snip1205 orange">
+              <img
+                src="img/gallery_img/dessert_item-3.jpg"
+                class="w-100"
+                alt="dessert_item-3"
+              />
+              <a
+                href="img/gallery_img/dessert_item-3.jpg"
+                data-lightbox="image-1"
+                data-title="Ice-cream"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------------------------------- gallery part end ------------------------------>
+
+    <!------------------------ order online part start ------------------------------------------------->
+    <section id="order_online">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="order_online-head text-center">
+              <h3>order <span class="span_color">online</span></h3>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-between">
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="order_online-item">
+              <div class="order_online-img">
+                <img
+                  src="img/order_online-img/oo_img-1.jpg"
+                  class="w-100 h-100"
+                  alt="Margherita Pizza"
+                />
+                <div class="order_online-img_overlay">
+                  <div class="add_2_cart_btn">
+                    <button>add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="order_online-text text-center">
+                <p>Margherita Pizza</p>
+                <p>৳ 1200</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="order_online-item">
+              <div class="order_online-img">
+                <img
+                  src="img/order_online-img/oo_img-2.jpg"
+                  class="w-100 h-100"
+                  alt="Fettuccine_Bolognese-img"
+                />
+                <div class="order_online-img_overlay">
+                  <div class="add_2_cart_btn">
+                    <button>add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="order_online-text text-center">
+                <p>Fettuccine Pasta</p>
+                <p>৳ 700</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 order_item-1">
+            <div class="order_online-item">
+              <div class="order_online-img">
+                <img
+                  src="img/order_online-img/oo_img-3.jpg"
+                  class="w-100 h-100"
+                  alt="Spicy-Seafood-Noodles"
+                />
+                <div class="order_online-img_overlay">
+                  <div class="add_2_cart_btn">
+                    <button>add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="order_online-text text-center">
+                <p>Spicy Seafood Noodles</p>
+                <p>৳ 500</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 pt-5">
+            <div class="order_online-item">
+              <div class="order_online-img">
+                <img
+                  src="img/order_online-img/oo_img-7.jpg"
+                  class="w-100 h-100"
+                  alt="BBQ-Burger"
+                />
+                <div class="order_online-img_overlay">
+                  <div class="add_2_cart_btn">
+                    <button>add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="order_online-text text-center">
+                <p>BBQ Burger</p>
+                <p>৳ 650</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 pt-5">
+            <div class="order_online-item">
+              <div class="order_online-img">
+                <img
+                  src="img/order_online-img/oo_img-4.jpg"
+                  class="w-100 h-100"
+                  alt="Pasta_Bolognese"
+                />
+                <div class="order_online-img_overlay">
+                  <div class="add_2_cart_btn">
+                    <button>add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="order_online-text text-center">
+                <p>Pasta Bolognese</p>
+                <p>৳ 500</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 pt-5">
+            <div class="order_online-item">
+              <div class="order_online-img">
+                <img
+                  src="img/order_online-img/oo_img-8.jpg"
+                  class="w-100 h-100"
+                  alt="Ham-Burger"
+                />
+                <div class="order_online-img_overlay">
+                  <div class="add_2_cart_btn">
+                    <button>add to cart</button>
+                  </div>
+                </div>
+              </div>
+              <div class="order_online-text text-center">
+                <p>HamBurger</p>
+                <p>৳ 600</p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------ order online part end ------------------------------------------------->
+
+    <!------------------------------------ download part start ----------------------------------------->
+    <section id="app">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="app_header text-center">
+              <h3>our <span class="span_color">app</span></h3>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-between">
+          <div class="col-lg-4">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-once="true"
+              data-aos-easing="ease-in-out"
+            >
+              <figure class="snip1573">
+                <img
+                  src="img/app_img/preview.jpg"
+                  class="w-100"
+                  alt="DoorDash"
+                />
+                <figcaption>
+                  <h3>Download</h3>
+                </figcaption>
+                <a href="#"></a>
+              </figure>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="app_text text-center">
+              <p>
+                Download our app and get <span class="span_color">25%</span> off
+                on any online order!!!
+              </p>
+              <img
+                src="img/footer_img/store-logo.png"
+                class="w-50 pt-5"
+                alt="store-logo"
+              />
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-once="true"
+              data-aos-easing="ease-in-out"
+            >
+              <figure class="snip1573">
+                <img
+                  src="img/app_img/dribbble_shot_hd_-_12_4x.jpg"
+                  class="w-100"
+                  alt="DoorDash"
+                />
+                <figcaption>
+                  <h3>Download</h3>
+                </figcaption>
+                <a href="#"></a>
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-4">
+            <div id="counters_3">
+              <div class="counter_text text-center">
+                <i class="fa-regular fa-face-laugh-beam"></i>
+                <div class="counter" data-TargetNum="25112" data-Speed="6000">
+                  +0
+                </div>
+                <h4>happy customer</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div id="counters_3">
+              <div class="counter_text text-center">
+                <i class="fa-solid fa-download"></i>
+                <div class="counter" data-TargetNum="11965" data-Speed="6000">
+                  +0
+                </div>
+                <h4>app download</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div id="counters_3">
+              <div class="counter_text text-center">
+                <i class="fa-solid fa-star"></i>
+                <div class="counter" data-TargetNum="10955" data-Speed="6000">
+                  +0
+                </div>
+                <h4>5 star rating</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------------------- download part start ---------------------------------------->
+
+    <!-------------------------------- review part start ------------------------------------------>
+    <section id="review">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="review_head text-center">
+              <h3>our <span class="span_color">reviews</span></h3>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center review_border">
+          <div class="review_slider">
+            <div class="col-lg-8">
+              <div class="review_text text-center">
+                <p>
+                  <i class="fa-solid fa-quote-left"></i> Tasty, a culinary
+                  haven, exceeded our expectations. The diverse menu is a
+                  gastronomic journey, offering a delightful array of
+                  <span>flavors</span>. The well-thought-out presentation adds
+                  an artistic touch to every dish..
+                </p>
+              </div>
+              <div class="review-by_text text-center">
+                <p>Cassie Cage & Johnny Cage <span>&#9135;</span> June 2023</p>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="review_text text-center">
+                <p>
+                  <i class="fa-solid fa-quote-left"></i> Our experience at Tasty
+                  was nothing short of <span>exceptional</span>. The attentive
+                  staff made us feel truly valued, ensuring our dietary needs
+                  were met. It's a rare find where vegetarians and vegans are
+                  equally spoiled for choice.
+                </p>
+              </div>
+              <div class="review-by_text text-center">
+                <p>Albedo & Klee <span>&#9135;</span> July 2023</p>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="review_text text-center">
+                <p>
+                  <i class="fa-solid fa-quote-left"></i> Tasty's desserts are
+                  the grand finale to an already impressive meal. The chocolate
+                  lava cake, in particular, is a
+                  <span>sublime</span> indulgence, and their dessert menu is the
+                  best. It's a place where food lovers can revel in the joy of
+                  discovery and savor every bite.
+                </p>
+              </div>
+              <div class="review-by_text text-center">
+                <p>Emma & Liam <span>&#9135;</span> August 2023</p>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="review_text text-center">
+                <p>
+                  <i class="fa-solid fa-quote-left"></i> Tasty's attention to
+                  dietary restrictions deserves commendation. They go above and
+                  beyond to accommodate special requests, ensuring that everyone
+                  <span>enjoys</span> their dining experience.
+                </p>
+              </div>
+              <div class="review-by_text text-center">
+                <p>Emily & Henry <span>&#9135;</span> September 2023</p>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="review_text text-center">
+                <p>
+                  <i class="fa-solid fa-quote-left"></i> The innovative mixology
+                  at Tasty is a highlight. From classic cocktails to unique
+                  house creations, each sip is a revelation. They complement the
+                  cuisine <span>seamlessly</span>. The weekend brunch at Tasty
+                  is a must-try.
+                </p>
+              </div>
+              <div class="review-by_text text-center">
+                <p>Alex & Alexia <span>&#9135;</span> October 2023</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------------------------- review part end ------------------------------------------>
+
+    <!------------------------------ team part start ------------------------------------------------->
+    <section id="team">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="team_head text-center">
+              <h3>our <span class="span_color">team</span></h3>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-between">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="team_item">
+              <div class="team_img">
+                <img
+                  src="img/team_img/p6-team-img-1.jpg"
+                  class="w-100"
+                  alt=""
+                />
+                <div class="team_overlay">
+                  <ul>
+                    <li>
+                      <a href="#">FB</a>
+                    </li>
+                    <li>
+                      <a href="#">IG</a>
+                    </li>
+                    <li>
+                      <a href="#">IN</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team_text text-center">
+                <h4>JACK PRESTON</h4>
+                <p>Owner</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="team_item">
+              <div class="team_img">
+                <img
+                  src="img/team_img/p6-team-img-2.jpg"
+                  class="w-100"
+                  alt=""
+                />
+                <div class="team_overlay">
+                  <ul>
+                    <li>
+                      <a href="#">FB</a>
+                    </li>
+                    <li>
+                      <a href="#">IG</a>
+                    </li>
+                    <li>
+                      <a href="#">IN</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team_text text-center">
+                <h4>mark wans</h4>
+                <p>Co-Owner</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="team_item">
+              <div class="team_img">
+                <img
+                  src="img/team_img/p6-team-img-3.jpg"
+                  class="w-100"
+                  alt=""
+                />
+                <div class="team_overlay">
+                  <ul>
+                    <li>
+                      <a href="#">FB</a>
+                    </li>
+                    <li>
+                      <a href="#">IG</a>
+                    </li>
+                    <li>
+                      <a href="#">IN</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team_text text-center">
+                <h4>jason rogers</h4>
+                <p>general manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="team_item">
+              <div class="team_img">
+                <img
+                  src="img/team_img/p6-team-img-4.jpg"
+                  class="w-100"
+                  alt=""
+                />
+                <div class="team_overlay">
+                  <ul>
+                    <li>
+                      <a href="#">FB</a>
+                    </li>
+                    <li>
+                      <a href="#">IG</a>
+                    </li>
+                    <li>
+                      <a href="#">IN</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team_text text-center">
+                <h4>ian wilson</h4>
+                <p>restaurant manager</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 pt-4">
+            <div class="team_item">
+              <div class="team_img">
+                <img
+                  src="img/team_img/p6-team-img-5.jpg"
+                  class="w-100"
+                  alt=""
+                />
+                <div class="team_overlay">
+                  <ul>
+                    <li>
+                      <a href="#">FB</a>
+                    </li>
+                    <li>
+                      <a href="#">IG</a>
+                    </li>
+                    <li>
+                      <a href="#">IN</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team_text text-center">
+                <h4>thomas hitch</h4>
+                <p>chef</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 pt-4">
+            <div class="team_item">
+              <div class="team_img">
+                <img
+                  src="img/team_img/p6-team-img-6.jpg"
+                  class="w-100"
+                  alt=""
+                />
+                <div class="team_overlay">
+                  <ul>
+                    <li>
+                      <a href="#">FB</a>
+                    </li>
+                    <li>
+                      <a href="#">IG</a>
+                    </li>
+                    <li>
+                      <a href="#">IN</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team_text text-center">
+                <h4>anna york</h4>
+                <p>cook</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 pt-4">
+            <div class="team_item">
+              <div class="team_img">
+                <img
+                  src="img/team_img/p6-team-img-7.jpg"
+                  class="w-100"
+                  alt=""
+                />
+                <div class="team_overlay">
+                  <ul>
+                    <li>
+                      <a href="#">FB</a>
+                    </li>
+                    <li>
+                      <a href="#">IG</a>
+                    </li>
+                    <li>
+                      <a href="#">IN</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team_text text-center">
+                <h4>dorian davis</h4>
+                <p>pastry chef</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 pt-4">
+            <div class="team_item">
+              <div class="team_img">
+                <img
+                  src="img/team_img/p6-team-img-8.jpg"
+                  class="w-100"
+                  alt=""
+                />
+                <div class="team_overlay">
+                  <ul>
+                    <li>
+                      <a href="#">FB</a>
+                    </li>
+                    <li>
+                      <a href="#">IG</a>
+                    </li>
+                    <li>
+                      <a href="#">IN</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team_text text-center">
+                <h4>maria lopez</h4>
+                <p>head sommelier</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------------ team part end ------------------------------------------------->
+
+    <!-------------------------------- achivement part start ---------------------------------------->
+    <section id="achivement">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="achivement_head text-center">
+              <h3>our <span class="span_color">achivements</span></h3>
+            </div>
+          </div>
+        </div>
+        <div class="row award_slider">
+          <div class="col-lg-3">
+            <div class="achivement_item">
+              <img src="img/award_slider-img/badge1.png" class="w-50" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="achivement_item">
+              <img src="img/award_slider-img/badge2.png" class="w-50" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="achivement_item">
+              <img src="img/award_slider-img/badge3.png" class="w-50" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="achivement_item">
+              <img
+                src="img/award_slider-img/gf-logo-awards_logo.png"
+                class="w-50"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="achivement_item">
+              <img
+                src="img/award_slider-img/Golden-Bean-2019-logo.png"
+                class="w-50"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="achivement_item">
+              <img
+                src="img/award_slider-img/golden-bean-sticker-gold-north-america-2022.png"
+                class="w-50"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="achivement_item">
+              <img
+                src="img/award_slider-img/sprudge-logo-transparent-bg.png"
+                class="w-50"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-------------------------------- achivement part end ---------------------------------------->
+
+    <!--------------------------- service part start ----------------------------------------------->
+    <section id="service">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-3">
+            <div class="service_item text-center">
+              <i class="fa-solid fa-store"></i>
+              <h4>in our stores</h4>
+              <p>
+                Pick your product in our Jighatola, Gulshan or Mirpur stores
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="service_item text-center">
+              <i class="fa-solid fa-truck"></i>
+              <h4>home delivery</h4>
+              <p>
+                Product carefully delivered within 1 hours inside Dhaka city
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="service_item text-center">
+              <i class="fa-solid fa-people-carry-box"></i>
+              <h4>by a caring courier</h4>
+              <p>
+                In jighatola and inner suburbs, Monday to Saturday from 1 pm to
+                7 am
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="service_item text-center">
+              <i class="fa-regular fa-credit-card"></i>
+              <h4>secure payment</h4>
+              <p>
+                Suppots for multiple payment gateways like Bkash, Nagad, VISA,
+                Mastercard Ect.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------------- service part end ----------------------------------------------->
+
+    <!--------------------------- footer part start -------------------------------------------------->
+    <section id="footer">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-3">
+            <div class="footer_sec-1 text-start">
+              <img src="img/main_logo.png" class="w-50" />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                dolorum porro nesciunt sapiente vero explicabo vitae quaerat
+                quia laborum quam.
+              </p>
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer_sec-2">
+              <div class="footer_header text-start">
+                <h3>working hours</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="working_hour_time text-start">
+                  <p>saturday:</p>
+                  <p>sunday:</p>
+                  <p>monday:</p>
+                  <p>tuesday:</p>
+                  <p>wednesday:</p>
+                  <p>thursday:</p>
+                  <p>friday:</p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="working_hour_time text-start">
+                  <p>11:00-00:00</p>
+                  <p>11:00-23:00</p>
+                  <p>09:00-22:00</p>
+                  <p>09:00-22:00</p>
+                  <p>09:00-22:00</p>
+                  <p>09:00-22:00</p>
+                  <p>09:00-22:00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer_sec-3">
+              <div class="footer_header text-start">
+                <h3>our address</h3>
+              </div>
+              <div class="footer_link">
+                <p>
+                  <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                  &nbsp;New Road, Jighatola, Dhanmondi
+                </p>
+                <p>
+                  <a href="#"><i class="fa-solid fa-phone"></i></a>
+                  &nbsp;+08812345678
+                </p>
+                <p>
+                  <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                  &nbsp;booking.tasty@gmail.com
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer_sec-4">
+              <div class="footer_header text-start">
+                <h3>newsletter</h3>
+              </div>
+              <div class="mail_bar text-start">
+                <p>Receive the latest news from us.</p>
+                <form action="">
+                  <input type="email" placeholder="Your Email Address" />
+                </form>
+              </div>
+              <div class="download-part">
+                <img src="img/footer_img/store-logo.png" class="w-50" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--------------------------- footer part end -------------------------------------------------->
+
+    <!------------------------------ copyright part start ------------------------------------------------>
+    <section id="copyright">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-3">
+            <div class="copyright_text text-start">
+              <p>&#169; Copyright reserved for <span>Tasty</span></p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="copyright_link text-end">
+              <a href="#">privacy</a>
+              <a href="#">term</a>
+              <a href="#">policy</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------------ copyright part end ------------------------------------------------>
+
+    <!-- js link start -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/code.jquery.com_jquery-1.12.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/percent-preloader.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/multi-animated-counter.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- js link end -->
+  </body>
+</html>
